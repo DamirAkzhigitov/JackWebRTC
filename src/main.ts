@@ -11,18 +11,6 @@ import VueAxios from 'vue-axios'
 import { initializeApp } from 'firebase/app'
 // Composables
 import { createApp } from 'vue'
-
-var firebaseConfig = {
-  apiKey: '',
-  authDomain: '',
-  projectId: '',
-  storageBucket: '',
-  messagingSenderId: '',
-  appId: ''
-}
-
-const firebaseApp = initializeApp(firebaseConfig)
-
 // Plugins
 import { registerPlugins } from '@/plugins'
 
